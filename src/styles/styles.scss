@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'myFont';
+    src: url("../assets/fonts/Spartan-Bold.ttf") format("truetype");
+}
+
+$font: 'myFont', sans-serif;
+
+h1 {
+    color:red;
+    font-family: $font;
+}
