@@ -14,7 +14,7 @@ const rulesForHTML = {
 const rulesForStyles = {
     test: /\.(sa|sc|c)ss$/i,
     exclude: /styles.(sa|sc|c)ss$/,
-    use: ['style-loader', 'css-loader', 'sass-loader'],
+    use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader'],
 };
 
 const rulesForMainStylesFile = {
@@ -28,6 +28,7 @@ const rulesForMainStylesFile = {
         },
         'css-loader',
         'sass-loader',
+        'postcss-loader',
     ],
 };
 
